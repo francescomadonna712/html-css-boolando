@@ -7,11 +7,12 @@
 
 /* header */
 .box-header{
+    z-index: 999;
     position: fixed;
+    top:0;
     width: 100%;
     padding: 1rem;
     background-color:#FF6900;
-   
 }
 
 .nav{
@@ -21,9 +22,6 @@
     display: flex;
     height: 2rem;
     margin-top: 1rem;   
-    
-    
-    
 }
 
 .link{
@@ -33,7 +31,6 @@
     display: flex;
 }
     
-
 .link a{
     padding: 0 0.5rem;
     text-decoration: none;
@@ -48,11 +45,9 @@
     display: flex;
 }
     
-
 .logo img{
    width: 50%;
 }
-    
 
 .login{
     justify-content: flex-end;
@@ -63,4 +58,93 @@
 .login i{
     padding: 0 0.5rem;
     color: white;
+}
+/* fine header con nav bar */
+
+.box-main{
+    
+    margin-top: 7rem;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1250px;
+}
+
+.img{
+    position: relative;
+    display: inline-block;
+    height: 600px;
+    width: 400px;
+
+}
+
+.img img{
+   
+    position: absolute;
+    padding: 1rem;
+    height: 600px;
+    
+}   
+
+.heart{
+    text-decoration: none;
+    font-weight: 1000;
+    padding: 1rem;
+    background-color: white;
+    position: absolute;
+    top: 2rem;
+    right: -10px;
+}
+
+.heart:hover {
+    color: red;
+}
+
+.sconto{
+    position: absolute;
+    bottom: 5rem;
+    left: 1rem;
+    background-color: red;
+    padding: 4px;
+    color: white;
+}
+
+.dettaglio{
+    position: absolute;
+    bottom: 5rem;
+    left: 4rem;
+    background-color:green;
+    padding: 4px;
+    color: white;
+
+}
+
+
+/* prezzi e sconti */
+.info{
+
+    display: flex;
+    margin:auto;
+    width:1220px;
+}
+
+.item1{
+    width: 33.3%;
+}
+
+.item2{
+    width: 33.3%;
+}
+.item3{
+    width: 33.3%;
+}
+
+.price{
+    font-weight: 700;
+    color: red;
+    display: inline;
+}
+
+.discount{
+    text-decoration: line-through;
+    display: inline;
 }
