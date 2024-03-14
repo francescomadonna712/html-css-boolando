@@ -1,122 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css>
+    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
+
     <header>
-        <div class="box-header">
-            <div class="nav">
-                <div class="link"> 
-                    <a href="https://www.zalando.it/donna-home/">Donna</a>
-                    <a href="https://www.zalando.it/uomo-home/">Uomo</a>
-                    <a href="https://www.zalando.it/bambini-home/">Bambini</a>
+            <div class="box-header">
+                <div class="nav">
+                    <div class="link"> 
+                        <a href="https://www.zalando.it/donna-home/">Donna</a>
+                        <a href="https://www.zalando.it/uomo-home/">Uomo</a>
+                        <a href="https://www.zalando.it/bambini-home/">Bambini</a>
+                    </div>
+                    <div class="logo"><img src="./img/boolean-logo.png" alt=""></div>
+                    <div class="login">
+                        <i class="fa-solid fa-user"></i>
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
                 </div>
-                <div class="logo"><img src="./img/boolean-logo.png" alt=""></div>
-                <div class="login">
-                    <i class="fa-solid fa-user"></i>
+            </div>
+    
+        </header>
+        <!-- main con foto -->
+     <main>
+        <div class="container flex-wrap">
+            <!-- FOTO1 -->
+            <div class="card">
+                 <div class="foto">
+                    <img class="front-photo" src="img/1.webp" alt="">
+                    <img class="back-photo" src="img/1b.webp" alt="">
                     <i class="fa-solid fa-heart"></i>
-                    <i class="fa-solid fa-cart-shopping"></i>
-                </div>
-            </div>
-        </div>
-    </header>
-    <!-- main con foto prodotti -->
-    <main>
-        <div class="box-main"> 
-            <div class="img"><img src="img/1.webp" alt="">
-            <div class="heart"><i class="fa-solid fa-heart"></i></div>
-            <div class="sconto">50%</div>
-            <div class="dettaglio">sostenibilità</div>
-            </div>
-            <div class="img"><img src="img/2.webp" alt="">
-                <div class="heart"><i class="fa-solid fa-heart"></i></div>
-                <div class="sconto">30%</div>
-            </div>
-            <div class="img"><img src="img/3.webp" alt="">
-                <div class="heart"><i class="fa-solid fa-heart"></i></div>
-                <div class="sconto">30%</div>
-            </div>
-        </div>
-        
-        <div class="info">
-            <!-- 1prodotto -->
-             <div class="item1">
+                    <div class="sconto">50%</div>
+                    <div class="dettaglio">sostenibilità</div>
+                 </div>
                 <p>Levi's</p>
                 <h4>RELAXED FIT TEE UNISEX</h4>
                 <p class="price">14,99€</p>
                 <p class="discount">29,99</p>
+                 
             </div>
-            <!-- 2prodotto -->
-            <div class="item2">
-                <p>Guess</p>
-                <h4>ROSES TEE</h4>
-                <p class="price">20,99€</p>
-                <p class="discount">29,99€</p>
-                
-            </div>
-            <!-- 3 prodotto -->
-            <div class="item3">
-                <p>Come Zucchero Filato</p>
-                <h4>VOGLIA DI COLORI PASTELLO</h4>
-                <p class="price">129,99€</p>
-                <p class="discount">184,99</p>
-            </div>
-        </div>
+                <!-- FOTO2 -->
 
-        <div class="box-main"> 
-            <div class="img"><img src="img/1.webp" alt="">
-            <div class="heart"><i class="fa-solid fa-heart"></i></div>
-            <div class="sconto">50%</div>
-            <div class="dettaglio">sostenibilità</div>
-            </div>
-            <div class="img"><img src="img/2.webp" alt="">
-                <div class="heart"><i class="fa-solid fa-heart"></i></div>
-                <div class="sconto">30%</div>
-            </div>
-            <div class="img"><img src="img/3.webp" alt="">
-                <div class="heart"><i class="fa-solid fa-heart"></i></div>
-                <div class="sconto">30%</div>
-            </div>
-        </div>
-    
-        <div class="info">
-                    <!-- 1prodotto -->
-                     <div class="item1">
-                        <p>Levi's</p>
-                        <h4>RELAXED FIT TEE UNISEX</h4>
-                        <p class="price">14,99€</p>
-                        <p class="discount">29,99</p>
-                    </div>
-                    <!-- 2prodotto -->
-                    <div class="item2">
-                        <p>Guess</p>
-                        <h4>ROSES TEE</h4>
-                        <p class="price">20,99€</p>
-                        <p class="discount">29,99€</p>
-                        
-                    </div>
-                    <!-- 3 prodotto -->
-                    <div class="item3">
-                        <p>Come Zucchero Filato</p>
-                        <h4>VOGLIA DI COLORI PASTELLO</h4>
-                        <p class="price">129,99€</p>
-                        <p class="discount">184,99</p>
-                    </div>
+            <div class="card">
+                <div class="foto">
+                 <img class="front-photo" src="img/2.webp" alt="">
+                 <img class="back-photo"src="img/2b.webp" alt="">
+                 <i class="fa-solid fa-heart"></i>
+                 <div class="sconto">30%</div>
                 </div>
-            
-            <!-- fine prima riga di prodotti -->
-
+                 <p>Guess</p>
+                 <h4>ROSES TEE</h4>
+                 <p class="price">20,99€</p>
+                 <p class="discount">29,99</p>
                
-</main>
-                    
+            </div>
+                    <!-- FOTO3 -->
 
-<footer>
+            <div class="card">
+                <div class="foto">
+                  <img class="front-photo" src="img/3.webp" alt="">
+                  <img class="back-photo" src="img/3b.webp" alt="">
+                  <i class="fa-solid fa-heart"></i>
+                  <div class="sconto">30%</div>
+                </div>
+                  <p>Come Zucchero filato</p>
+                  <h4>VOGLIA DI COLORI PASTELLO</h4>
+                  <p class="price">129,99€</p>
+                  <p class="discount">184,99</p>
+                
+           </div>
+
+           <!-- FOTO4 -->
+           <div class="card">
+            <div class="foto">
+             <img class="front-photo" src="img/4.webp" alt="">
+             <img class="back-photo" src="img/4b.webp" alt="">
+             <i class="fa-solid fa-heart"></i>
+             <div class="sconto">50%</div>
+             <div class="dettaglio">sostenibilità</div>
+            </div>
+             <p>Levi's</p>
+             <h4>TEE UNISEX</h4>
+             <p class="price">14,99€</p>
+             <p class="discount">29,99</p>
+           
+        </div>
+
+        <!-- FOTO5 -->
+        <div class="card">
+            <div class="foto">
+             <img class="front-photo" src="img/5.webp" alt="">
+             <img class="back-photo" src="img/5b.webp" alt="">
+             <i class="fa-solid fa-heart"></i>
+            </div>
+             <p>Maya Deluxe</p>
+             <h4>STRIPE BODICE</h4>
+             <p class="price">99,99€</p>
+            
+        </div>
         
-</footer>
+        <!-- FOTO6 -->
+        <div class="card">
+            <div class="foto">
+             <img class="front-photo" src="img/6.webp" alt="">
+             <img class="back-photo" src="img/6b.webp" alt="">
+             <i class="fa-solid fa-heart"></i>
+             <div class="dettaglio1">sostenibilità</div>
+            </div>
+             <p>Esprit</p>
+             <h4>MAGLIONE - BLACK</h4>
+             <p class="price">29,99€</p>
+            </div>
+        
+    </div>
+</main> 
+             
+     
+
+        
+        
+
+
+
+       
+       
     
 </body>
 </html>
