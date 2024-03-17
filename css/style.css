@@ -119,7 +119,7 @@ main{
 }
 
 
-.fa-solid {
+.like {
     z-index: 2;
     text-decoration: none;
     font-weight: 1000;
@@ -132,7 +132,7 @@ main{
    
 }
 
-.fa-solid:hover {
+.like:hover {
     color: red;
 }
 
@@ -140,7 +140,6 @@ main{
 .sconto{
     position: absolute;
     bottom: 5rem;
-    left: 1rem;
     background-color: red;
     padding: 4px;
     color: white;
@@ -149,7 +148,7 @@ main{
 .dettaglio{
     position: absolute;
     bottom: 5rem;
-    left: 4rem;
+    left: 3rem;
     background-color:green;
     padding: 4px;
     color: white;
@@ -158,7 +157,7 @@ main{
 {
     position: absolute;
     bottom: 5rem;
-    left: 1rem;
+    
     background-color:green;
     padding: 4px;
     color: white;
